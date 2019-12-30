@@ -23,6 +23,7 @@
 - Docker 
   - Isolates project dependencies from machine it's running on
   - Wraps deps in a single 'image' that can be used on any machine
+  - Docker file (a list of instructions)
 
 - Travis CI
   - Automatically run linting & unit-tests
@@ -43,6 +44,15 @@
        1. SETUP: Create sample database objects
        2. EXECUTION: Call the code
        3. ASSERTION: Check code does what it is supposed to do
+
+<hr>
+
+#### DOCKER
+- Dockerfile (no extenstion)
+  - Docker allows user to build 'images' on top of other 'images'
+  - 1st line on Dockerfile is the 'image' where you inherit your Dockerfile from
+    - Create Dockerfile from the Python 3.7 image (https://hub.docker.com)
+    - 3.7.6-alpine3.11, 3.7-alpine3.11, 3.7.6-alpine, <b>3.7-alpine</b>
     
 
 
