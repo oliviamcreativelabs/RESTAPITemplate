@@ -15,4 +15,4 @@ COPY ./app/ /app
 #! SECURITY WARNING 
 # If this is not done, it will run our container from our root dir
 RUN adduser -D user
-USER usercle
+USER user
